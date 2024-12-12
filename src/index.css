@@ -1,4 +1,20 @@
-:root {
+@tailwind base;
+@tailwind components;
+.home_row{
+  @apply flex flex-wrap w-full items-center justify-center  gap-4  z-[1] mx-[5px];
+}
+.nav_item{
+  @apply flex flex-col mx-[10px] text-white;
+}
+.nav_item_1{
+  @apply text-[10px];
+  
+}
+.nav_item_2{
+  @apply text-[13px] font-extrabold;
+}
+@tailwind utilities;
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +81,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
